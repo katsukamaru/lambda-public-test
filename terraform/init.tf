@@ -7,4 +7,3 @@ provider "aws" {
   secret_key = "YOUR_SECRET_KEY"
   region     = "${var.region}"
 }
-
