@@ -27,7 +27,7 @@ resource "aws_security_group" "public" {
     from_port   = 0
     to_port     = 65535
     protocol    = "TCP"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["10.1.1.0/24","10.1.2.0/24"]
   }
 
   egress {
